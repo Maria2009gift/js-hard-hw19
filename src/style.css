@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+input, button {
+    border: none;
+    width: 180px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c1b9b9;
+    margin-bottom: 20px;
+    height: 30px;
+    position: fixed;
+    width: 700px;
+    border: 2px solid rgb(56, 50, 50);
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.photo-card {
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.picture {
+    /* height: 400px; */
+    width: 350px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a {
+    margin-right: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+

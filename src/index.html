@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <button id="btnLoadMore" class="btn">Load more</button>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="query"
+        autocomplete="off"
+        placeholder="Search images with category..."
+        id="inputCategory"
+      />
+      <input
+      type="text"
+      name="query"
+      autocomplete="off"
+      placeholder="Search images with color..."
+      id="inputColor"
+    />
+    </form>
+  </div>
+
+  <ul class="gallery">
+    <li id="element1" class="a"></li>
+    <li id="element2" class="a"></li>
+    <li id="element3" class="a"></li>
+    <li id="element4" class="a"></li>
+  </ul>
+
+  <script type="module" src="./js/apiService.js"></script>
+</body>
 </html>
