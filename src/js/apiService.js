@@ -1,7 +1,6 @@
 
+import cardTemplate from '../templates/card.hbs' assert { type: "text/x-handlebars-template" }
 
-import cardTemplate from '../templates/card.hbs'
-const gallery = document.querySelector(".gallery")
 const element1 = document.querySelector("#element1")
 const element2 = document.querySelector("#element2")
 const element3 = document.querySelector("#element3")
