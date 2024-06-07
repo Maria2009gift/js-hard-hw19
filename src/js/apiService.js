@@ -1,5 +1,5 @@
 
-import cardTemplate from '../templates/card.hbs' with { type: "application/json" }
+import cardTemplate from '../templates/card.hbs'
 
 const element1 = document.querySelector("#element1")
 const element2 = document.querySelector("#element2")
