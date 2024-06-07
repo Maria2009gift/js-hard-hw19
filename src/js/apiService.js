@@ -1,5 +1,5 @@
 
-import cardTemplate from '../templates/card.hbs'
+import cardTemplate from '../templates/card.hbs' with { type: "text/x-handlebars-template" }
 
 const element1 = document.querySelector("#element1")
 const element2 = document.querySelector("#element2")
