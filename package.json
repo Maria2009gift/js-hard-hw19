@@ -12,5 +12,8 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
   }
 }
